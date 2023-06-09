@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
-/* body {
-    font-family: ;
-} */
+
+
+img {
+    mix-blend-mode: multiply;
+
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
 
 
 /* Formatação do HEADER */
@@ -34,6 +41,7 @@ li {
     margin: 10px auto;
     display: flex;
     text-align: center;
+    position: relative;
 }
 
 li.li-menu {
