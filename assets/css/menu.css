@@ -7,6 +7,10 @@ header {
     
 }
 
+h1 {
+    padding: 10px;
+}
+
 ul {
     border: 3px solid green;
     display: flex;
