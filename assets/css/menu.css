@@ -24,3 +24,7 @@ li {
     margin: 10px 0;
     display: flex;
 }
+
+li.li-menu {
+    margin: 10px;
+}
