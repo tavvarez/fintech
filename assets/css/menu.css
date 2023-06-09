@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+header {
+    border: 1px solid red;
+    
+}
+
+h1 {
+    padding: 10px;
+}
+
+ul {
+    border: 3px solid green;
+    display: flex;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+li {
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+}
