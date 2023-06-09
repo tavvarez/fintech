@@ -19,12 +19,23 @@ ul {
 }
 
 li {
-    border: 1px solid blue;
+    width: 5%;
+    border: 1px solid transparent;
     padding: 10px;
     margin: 10px 0;
     display: flex;
 }
 
 li.li-menu {
+    width: 5%;
     margin: 10px;
+    border-radius: 70px;
+    background-color: #2dc653;
+    
+}
+
+li.li-menu:hover {
+    scale: 110%;
+    background-color: transparent;
+    color: #2dc653;
 }
