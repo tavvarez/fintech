@@ -17,10 +17,9 @@ body {
 
 
 /* Formatação do HEADER */
-header {
+nav {
     border: 1px solid red;
     text-align: center;
-    
 }
 
 h1 {
@@ -29,33 +28,32 @@ h1 {
 
 ul {
     display: flex;
-    padding: 5px;
-    margin: 5px auto;
-    text-align: center;
-}
-
-li {
-    width: 10%;
-    border: 1px solid transparent;
     padding: 10px;
-    margin: 10px auto;
-    display: flex;
-    text-align: center;
-    position: relative;
+    margin: 5px auto;
 }
 
-li.li-menu {
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: border-color 0.3s;
+    text-align: center;
+
+  }
+
+nav li.li-menu {
     width: 5%;
-    margin: 10px;
+    margin: 12px;
     border-radius: 70px;
-    background-color: #2dc653;
-    
+    text-align: center;
 }
 
 li.li-menu:hover {
     scale: 110%;
-    background-color: black;
-    color: #2dc653;
+    background-color: white;
+    color: black;
+    background-color: #2dc653;
 }
 
 
