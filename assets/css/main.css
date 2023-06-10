@@ -16,14 +16,17 @@ body {
 }
 
 
-/* Formatação do HEADER */
+/* Formatação da NAV */
 nav {
     border: 1px solid red;
     text-align: center;
+    justify-content: center;
+    position: relative;
 }
 
 h1 {
-    padding: 10px;
+    padding: 25px;
+    display: flex;
 }
 
 ul {
@@ -33,20 +36,19 @@ ul {
 }
 
 nav li {
+    height: 45px;
     display: inline-block;
     margin-right: 10px;
     border: 1px solid #ccc;
     padding: 10px;
     transition: border-color 0.3s;
-    text-align: center;
 
   }
 
 nav li.li-menu {
-    width: 5%;
-    margin: 12px;
+    width: 7%;
+    margin: 15px;
     border-radius: 70px;
-    text-align: center;
 }
 
 li.li-menu:hover {
