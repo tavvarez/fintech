@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+img {
+    mix-blend-mode: multiply;
+
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+
+/* Formatação da NAV */
+nav {
+    border: 1px solid red;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+h1 {
+    padding: 25px;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    padding: 10px;
+    margin: 5px auto;
+}
+
+nav li {
+    height: 45px;
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: border-color 0.3s;
+
+  }
+
+nav li.li-menu {
+    width: 7%;
+    margin: 15px;
+    border-radius: 70px;
+}
+
+li.li-menu:hover {
+    scale: 110%;
+    background-color: white;
+    color: black;
+    background-color: #2dc653;
+}
+
+
+/* Formatação da MAIN */
+
+main {
+    border: 1px solid blue;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    
+}
