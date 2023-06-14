@@ -21,51 +21,55 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-  }
+}
 
-  .logo {
+.logo {
     font-size: 24px;
     margin: 0;
-  }
+    color: #333;
+    margin-right: 80px
+}
 
-  .menu {
+.menu {
     display: flex;
     align-items: center;
-  }
+    margin-right: auto;
+}
 
-  .menu button {
+.menu button {
     margin-right: 10px;
     padding: 10px;
     background-color: transparent;
-    border: 1px solid;
+    border: 1px solid #333;
     border-radius: 70px;
-    color: #FFFFFF;
+    color: #333;
     font-weight: bold;
     cursor: pointer;
     transition: transform 0.5s;
-  }
+}
 
-  .menu button:hover {
+.menu button:hover {
     transform: scale(1.1);
-  }
+}
 
-  .cta-buttons {
+.cta-buttons {
     display: flex;
     align-items: center;
-  }
+}
 
-  .cta-buttons button {
+.cta-buttons button {
     margin-right: 10px;
     padding: 10px;
     background-color: #2dc653;
-    border: none;
+    border: 1px solid #333;
     border-radius: 70px;
-    color: #FFFFFF;
+    color: #333;
     font-weight: bold;
     cursor: pointer;
     transition: transform 0.5s;
-  }
+}
 
-  .cta-buttons button:hover {
+
+.cta-buttons button:hover {
     transform: scale(1.1);
-  }
+}
