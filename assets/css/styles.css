@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+:root {
+    --color-light: #FFFFFF;
+    --color-green: #2dc653;
+    --color-dark: #333;
+}
+
+.header {
+    background-color: #2dc653;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .logo {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu button {
+    margin-right: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 70px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+
+  .menu button:hover {
+    transform: scale(1.1);
+  }
+
+  .cta-buttons {
+    display: flex;
+    align-items: center;
+  }
+
+  .cta-buttons button {
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #2dc653;
+    border: none;
+    border-radius: 70px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+
+  .cta-buttons button:hover {
+    transform: scale(1.1);
+  }
