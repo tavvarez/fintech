@@ -11,6 +11,7 @@ a {
 
 body {
     font-family: 'Comfortaa', cursive;
+    background-color: #FBFBFB;
 }
 
 :root {
@@ -144,7 +145,7 @@ body {
   
   .section {
     padding: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 80%;
     margin: 10px auto;
     height: 700px;
@@ -244,14 +245,31 @@ body {
   }
   
   .image-section {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+  }
+
+  .image-section img:hover {
+        transform: scale(1.1);
   }
   
   .text-section {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     order: 1;
     margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
   
@@ -260,7 +278,7 @@ body {
   }
   
   .text-section p {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 10px;
   }
   
