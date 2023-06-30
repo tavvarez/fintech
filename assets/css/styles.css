@@ -24,10 +24,10 @@ body {
     background-color: #FFFFFF;
     color: #333;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between !important;
     align-items: center;
     padding: 10px;
-    margin: 10px auto;
+    /* margin: 10px auto; */
 }
 
 .logo {
@@ -285,6 +285,3 @@ body {
   .buttons {
     margin-top: 20px;
   }
-  
-  /* Estilos adicionais conforme necessário */
-  
