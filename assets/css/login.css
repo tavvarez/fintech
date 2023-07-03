@@ -13,12 +13,12 @@ body {
   padding: 20px;
   background-color: #FFFFFF;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
 .container h2 {
   text-align: center;
-  color: #2dc653;
+  color: #333;
 }
 
 .form-group {
@@ -44,9 +44,9 @@ body {
   width: 100%;
   padding: 10px;
   background-color: #2dc653;
-  border: none;
+  border: 1px solid #333;
   border-radius: 5px;
-  color: #FFFFFF;
+  color: #333;
   font-weight: bold;
   cursor: pointer;
 }
@@ -54,4 +54,24 @@ body {
 .form-group .forgot-password {
   text-align: center;
   margin-top: 10px;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  color: #333;
+}
+
+.google-botao {
+  color: #FFFFFF;
+  margin-right: 10px;
+  align-items: center;
+
+}
+
+.icon-login {
+  color: #2dc653;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: transform 0.5s;
+  background-color: #FFFFFF;
 }
