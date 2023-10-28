@@ -108,9 +108,8 @@ body {
     background-color: #FFFFFF;
 }
 
+
 /* Menu */
-
-
 .menu {
     position: fixed;
     top: 50;
@@ -158,6 +157,4 @@ body {
     margin-top: 25px; /* Coloca o botão "X" na parte inferior do menu */
     padding: 25px;
 }
-
-/* Estilos de desktop aqui */
 
