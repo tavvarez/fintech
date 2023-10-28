@@ -108,3 +108,56 @@ body {
     background-color: #FFFFFF;
 }
 
+/* Menu */
+
+
+.menu {
+    position: fixed;
+    top: 50;
+    right: -250px; /* Inicialmente, o menu está oculto à direita */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    transition: right 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menu.hidden {
+    right: -250px; /* Esconda o menu à direita da tela */
+}
+
+.side-menu {
+    list-style: none;
+    padding: 15;
+    margin: 15;
+}
+
+.side-menu li {
+    padding: 10px;
+}
+
+
+.side-menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.side-menu li:hover {
+    background-color: #444;
+}
+
+.side-menu li a:hover {
+    color: #fff;
+}
+
+#close-menu {
+    margin-top: 25px; /* Coloca o botão "X" na parte inferior do menu */
+    padding: 25px;
+}
+
+/* Estilos de desktop aqui */
+
